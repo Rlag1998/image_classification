@@ -34,8 +34,8 @@ gamma_lr_scheduler = 0.1    # Learning rate reduction applied every 10 epochs.
 q_delta = 0.01              # Initial spread of random quantum weights
 start_time = time.time()    # Start of the computation timer
 
-##############################################################################
-# We initialize a PennyLane device with a ``default.qubit`` backend.
+
+# A PennyLane device is initialised.
 
 dev = qml.device("default.qubit", wires=n_qubits)
 
