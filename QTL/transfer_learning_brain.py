@@ -17,7 +17,6 @@ from pennylane import numpy as np
 torch.manual_seed(42)
 np.random.seed(42)
 
-# Plotting
 import matplotlib.pyplot as plt
 
 # OpenMP: number of parallel threads.
