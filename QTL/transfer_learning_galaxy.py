@@ -42,20 +42,8 @@ dev = qml.device("default.qubit", wires=n_qubits)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-##############################################################################
-# Dataset loading
-# ------------------------------------------------------------
-#
-# .. note::
-#     The dataset containing images of *ants* and *bees* can be downloaded
-#     `here <https://download.pytorch.org/tutorial/hymenoptera_data.zip>`_ and
-#     should be extracted in the subfolder ``../_data/hymenoptera_data``.
-#
-# This is a very small dataset (roughly 250 images), too small for training from scratch a
-# classical or quantum model, however it is enough when using *transfer learning* approach.
-#
-# The PyTorch packages ``torchvision`` and ``torch.utils.data`` are used for loading the dataset
-# and performing standard preliminary image operations: resize, center, crop, normalize, *etc.*
+
+# Loading and transforming the data
 
 data_transforms = {
     "train": transforms.Compose(
