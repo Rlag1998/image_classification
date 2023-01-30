@@ -473,8 +473,3 @@ plt.show()
 #
 # [4] Ville Bergholm, Josh Izaac, Maria Schuld, Christian Gogolin, Carsten Blank, Keri McKiernan, and Nathan Killoran.
 # *PennyLane: Automatic differentiation of hybrid quantum-classical computations*. arXiv:1811.04968 (2018).
-#
-#
-# About the author
-# ----------------
-# .. include:: ../_static/authors/andrea_mari.txt
