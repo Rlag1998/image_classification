@@ -1,24 +1,9 @@
-##############################################################################
-# General setup
-# ------------------------
-#
-# .. note::
-#
-#    To use the PyTorch interface in PennyLane, you must first
-#    `install PyTorch <https://pytorch.org/get-started/locally/#start-locally>`_.
-#
-# In addition to *PennyLane*, we will also need some standard *PyTorch* libraries and the
-# plotting library *matplotlib*.
-
-# Some parts of this code are based on the Python script:
-# https://github.com/pytorch/tutorials/blob/master/beginner_source/transfer_learning_tutorial.py
-# License: BSD
+# Library Imports
 
 import time
 import os
 import copy
 
-# PyTorch
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -26,7 +11,6 @@ from torch.optim import lr_scheduler
 import torchvision
 from torchvision import datasets, transforms
 
-# Pennylane
 import pennylane as qml
 from pennylane import numpy as np
 
