@@ -39,9 +39,6 @@ start_time = time.time()    # Start of the computation timer
 
 dev = qml.device("default.qubit", wires=n_qubits)
 
-##############################################################################
-# We configure PyTorch to use CUDA only if available. Otherwise the CPU is used.
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 ##############################################################################
