@@ -23,14 +23,7 @@ import matplotlib.pyplot as plt
 os.environ["OMP_NUM_THREADS"] = "1"
 
 
-##############################################################################
-# Setting of the main hyper-parameters of the model
-# ------------------------------------------------------------
-#
-# .. note::
-#   To reproduce the results of Ref. [1], ``num_epochs`` should be set to ``30`` which may take a long time.
-#   We suggest to first try with ``num_epochs=1`` and, if everything runs smoothly, increase it to a larger value.
-
+# Hyperparameters
 
 n_qubits = 4                # Number of qubits
 step = 0.0004               # Learning rate - default is 0.0004
